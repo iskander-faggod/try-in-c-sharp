@@ -1,0 +1,6 @@
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/bin/Debug/B_Console.exe
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/bin/Debug/B_Console.pdb
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/obj/Debug/B_Console.csprojAssemblyReference.cache
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/obj/Debug/B_Console.csproj.CoreCompileInputs.cache
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/obj/Debug/B_Console.exe
+/home/iskander/Desktop/test/ConsoleApplication1/B_Console/obj/Debug/B_Console.pdb
