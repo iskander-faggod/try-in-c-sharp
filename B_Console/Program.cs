@@ -7,6 +7,28 @@ namespace B_Console
 
         public static void Main(string[] args)
         {
+            int n = 5;
+            int[] fib = new int[n];
+
+            int a0 = 0;
+            int a1 = 1;
+
+            for (int i = 0; i<n; i++)
+            {
+                int a = a0 + a1;
+                fib[i] = a;
+
+                a0 = a1;
+                a1 = a;
+            }
+
+            foreach (var cur in fib)
+            {
+                Console.WriteLine(cur);
+            }
+        }
+        public static void ForDoubleFor(string[] args)
+        {
             int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             for (int i = 0; i < nums.Length; i++)
             {
@@ -18,6 +40,25 @@ namespace B_Console
             foreach (var num in nums)
             {
                 Console.WriteLine(num);
+            }
+
+            int[] numbers = { 1, -2, -4, -7, 5, 3, 2, -1, -3, 2, 7, -1, -3, 1, 7 };
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                for (int j = i+1; j<numbers.Length; j++)
+                {
+                    int ati = numbers[i];
+                    int atj = numbers[j];
+
+                    if (ati + atj == 0)
+                    {
+                        Console.WriteLine($"{ati} + {atj} == 0");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{ati} + {atj} != 0");
+                    }
+                }
             }
         }
         public static void DZ1(string[] args)
